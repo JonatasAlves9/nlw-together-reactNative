@@ -7,6 +7,7 @@ import AppLoading from 'expo-app-loading'
 import { Background } from './src/components/Background';
 
 import { SignIn } from './src/screens/signIn';
+import { Home } from './src/screens/Home';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -26,7 +27,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent //mostra a barra de status 
       />
-      <SignIn />
+      <Home />
     </Background>
   );
 
