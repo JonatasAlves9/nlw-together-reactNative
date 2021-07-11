@@ -14,7 +14,9 @@ export function Home() {
                 <ButtonAdd />
             </View>
             <View>
-                <CategorySelect />
+
+                <CategorySelect
+                />
             </View>
         </View>
     );
